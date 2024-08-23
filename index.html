@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+    <!-- tailwind and daisyui cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwindcss -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "color-1": "#ABEF5F",
+              "color-2": "#212121",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome kit  -->
+    <script
+      src="https://kit.fontawesome.com/c67cdd3601.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Style  -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- HEADER -->
+    <header>
+      <nav class="max-w-screen-xl mx-auto bg-transparent pt-4 px-6">
+        <div class="navbar">
+          <!-- text starts -->
+          <div class="navbar-start">
+            <!-- name -->
+            <div class="flex justify-center items-center gap-2">
+              <div
+                class="h-8 w-8 bg-color-1 rounded-full flex items-center justify-center -rotate-45"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+              <a class="text-xl font-extrabold text-[32px]">Rinterio</a>
+            </div>
+            <!-- text ends -->
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-4 hidden sm:flex">
+            <div
+              class="w-12 h-12 bg-white rounded-full flex items-center justify-center"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div
+              class="w-12 h-12 bg-white rounded-full flex items-center justify-center"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="flex">
+              <a class="btn rounded-full bg-color-1 font-extrabold"
+                >Book Consult
+                <div
+                  class="h-8 w-8 bg-color-2 text-white rounded-full flex items-center justify-center -rotate-45"
+                >
+                  <i class="fa-solid fa-arrow-right"></i></div
+              ></a>
+            </div>
+            <span class="lg:hidden">hello</span>
+          </div>
+
+          <div class="lg:hidden">
+            <div
+              class="dropdown dropdown-end absolute right-0 px-4 text-center"
+            >
+              <div
+                tabindex="0"
+                role="button"
+                class="w-12 h-12 rounded-full bg-white m-1 pt-3"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- hero -->
+      <!-- Hero section -->
+      <div class="max-w-screen-xl mx-auto text-center px-6">
+        <img class="max-w-1/2 mx-auto" src="./image/banner.png" alt="" />
+        <h1
+          class="font-extrabold text-[28px] lg:text-[68px] lg:w-5/6 mx-auto lg:leading-[88px]"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="lg:w-3/5 text-center mx-auto m-4">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+
+        <div>
+          <a
+            class="btn rounded-full bg-[rgba(171,239,95,0.5)] font-extrabold border border-color-1"
+            >Book Consult
+            <div
+              class="h-8 w-8 bg-color-1 text-color-2 rounded-full flex items-center justify-center -rotate-45"
+            >
+              <i class="fa-solid fa-arrow-right"></i></div
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN  -->
+    <main></main>
+    <!-- FOOTER  -->
+    <footer></footer>
+  </body>
+</html>
