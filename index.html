@@ -548,9 +548,9 @@
         class="bg-cover bg-center max-h-[1000px]"
         style="background-image: url('./image/bg.jpg')"
       >
-        <div class="mb-24 max-w-screen-xl mx-auto lg:px-7 px-4 pt-20">
+        <div class="max-w-screen-xl mx-auto lg:px-7 px-4 pt-20">
           <!-- text  -->
-          <div class="text-center">
+          <div class="text-center mb-4">
             <button
               class="bg-[rgba(171,239,95,0.3)] py-2 px-4 rounded-full flex gap-3 items-center justify-center font-bold mx-auto"
             >
@@ -566,33 +566,37 @@
           <!-- form area  -->
           <!-- 1st row -->
           <div class="pb-28">
-            <div class="px-28 mt-8 mx-auto flex justify-between gap-8">
-              <input
-                type="text"
-                placeholder="First Name*"
-                class="px-6 py-5 w-1/2 rounded-full"
-              />
-              <input
-                type="text"
-                placeholder="Last Name*"
-                class="px-6 py-5 w-1/2 rounded-full"
-              />
+            <div class="lg:px-28 mx-auto lg:flex justify-between gap-4">
+              <div class="lg:w-1/2 mb-4">
+                <input
+                  type="text"
+                  placeholder="First Name*"
+                  class="px-6 py-5 w-full rounded-full"
+                />
+              </div>
+              <div class="lg:w-1/2">
+                <input
+                  type="text"
+                  placeholder="Last Name*"
+                  class="px-6 py-5 w-full rounded-full"
+                />
+              </div>
             </div>
             <!-- 2nd row -->
-            <div class="px-28 mt-6 mx-auto flex justify-between gap-8">
+            <div class="lg:px-28 m-4 mx-auto lg:flex justify-between lg:gap-4">
               <input
                 type="number"
                 placeholder="Phone Number*"
-                class="px-6 py-5 w-1/2 rounded-full"
+                class="px-6 py-5 w-full rounded-full"
               />
               <input
                 type="text"
                 placeholder="Email Number**"
-                class="px-6 py-5 w-1/2 rounded-full"
+                class="px-6 py-5 w-full rounded-full"
               />
             </div>
             <!-- 3rd row  -->
-            <div class="px-28 mt-6">
+            <div class="px-28 mt-4">
               <input
                 type="text"
                 placeholder="Email Number**"
@@ -604,6 +608,40 @@
       </section>
     </main>
     <!-- FOOTER  -->
-    <footer></footer>
+    <footer class="bg-color-2 pb-20">
+      <div class="max-w-screen-xl mx-auto pt-4 px-4 lg:px-7">
+        <!-- name -->
+        <div class="flex justify-center items-center gap-2 mt-12">
+          <div
+            class="h-8 w-8 bg-color-1 rounded-full flex items-center justify-center -rotate-45"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <a class="text-xl font-extrabold text-[32px] text-white">Rinterio</a>
+        </div>
+        <p class="lg:w-3/5 mx-auto text-color-4 text-center mt-6">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <div
+          class="text-white font-thin lg:flex justify-center mt-4 mb-4 gap-8"
+        >
+          <button class="btn btn-ghost">Home</button>
+          <button class="btn btn-ghost">Services</button>
+          <button class="btn btn-ghost">Portfolio</button>
+          <button class="btn btn-ghost">Blogs</button>
+          <button class="btn btn-ghost">Contact Us</button>
+        </div>
+        <div class="flex justify-center">
+          <a class="btn rounded-full bg-color-1 font-extrabold border-none"
+            >Book Consult
+            <div
+              class="h-8 w-8 bg-color-2 text-white rounded-full flex items-center justify-center -rotate-45"
+            >
+              <i class="fa-solid fa-arrow-right"></i></div
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
